@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF08_Deck", "HF08_Deck\HF08_Deck.csproj", "{D56F56BC-E32D-438B-9953-8B266219E6DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D56F56BC-E32D-438B-9953-8B266219E6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56F56BC-E32D-438B-9953-8B266219E6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56F56BC-E32D-438B-9953-8B266219E6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56F56BC-E32D-438B-9953-8B266219E6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F045AE40-7A47-46D0-A1EE-7299EC8E74BE}
+	EndGlobalSection
+EndGlobal
