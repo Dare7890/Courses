@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF11_Await", "HF11_Await\HF11_Await.csproj", "{298E2CE7-893E-4FB4-BA51-A23EA97933DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{298E2CE7-893E-4FB4-BA51-A23EA97933DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298E2CE7-893E-4FB4-BA51-A23EA97933DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298E2CE7-893E-4FB4-BA51-A23EA97933DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298E2CE7-893E-4FB4-BA51-A23EA97933DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {636851C2-6199-4FC4-A3F7-C3060E0744E1}
+	EndGlobalSection
+EndGlobal

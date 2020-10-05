@@ -1,0 +1,9 @@
+﻿<Application x:Class="HF11_GuySerializer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HF11_GuySerializer"
+             StartupUri="MainPage.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
