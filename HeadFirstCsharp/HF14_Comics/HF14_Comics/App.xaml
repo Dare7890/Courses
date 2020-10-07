@@ -1,0 +1,9 @@
+﻿<Application x:Class="HF14_Comics.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HF14_Comics"
+             StartupUri="MainPage.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
