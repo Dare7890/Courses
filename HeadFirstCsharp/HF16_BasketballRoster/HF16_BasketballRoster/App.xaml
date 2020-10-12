@@ -1,0 +1,9 @@
+﻿<Application x:Class="HF16_BasketballRoster.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HF16_BasketballRoster"
+             StartupUri="View\LeaguePage.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

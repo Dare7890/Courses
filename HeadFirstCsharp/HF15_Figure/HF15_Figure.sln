@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF15_Figure", "HF15_Figure\HF15_Figure.csproj", "{7DCBBFB2-A2B3-42DE-86AB-8FFE2EEF8923}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DCBBFB2-A2B3-42DE-86AB-8FFE2EEF8923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCBBFB2-A2B3-42DE-86AB-8FFE2EEF8923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCBBFB2-A2B3-42DE-86AB-8FFE2EEF8923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCBBFB2-A2B3-42DE-86AB-8FFE2EEF8923}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A43340F-3147-427A-8DD2-841AC0039FD0}
+	EndGlobalSection
+EndGlobal
