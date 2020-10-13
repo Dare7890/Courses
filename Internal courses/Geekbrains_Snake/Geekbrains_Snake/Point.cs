@@ -66,5 +66,10 @@ namespace Geekbrains_Snake
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
         }
+
+        public bool IsHit(Point p)
+        {
+            return p.x == x && p.y == y;
+        }
     }
 }
