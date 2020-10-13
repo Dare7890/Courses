@@ -58,21 +58,13 @@ namespace Geekbrains_Snake
 
         public override string ToString()
         {
-            return x + ", " + y + ", " + sym; 
+            return x + ", " + y + ", " + sym;
         }
 
         public void Draw()
         {
-            try
-            {
-                Console.SetCursorPosition(x, y);
-                Console.Write(sym);
-            }
-            catch
-            {
-                Console.Clear();
-                Console.WriteLine("Game Over");
-            }
+            Console.SetCursorPosition(x, y);
+            Console.Write(sym);
         }
 
         public bool IsHit(Point p)

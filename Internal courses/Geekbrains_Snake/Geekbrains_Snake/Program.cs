@@ -29,8 +29,6 @@ namespace Geekbrains_Snake
             {
                 if (walls.IsHit(snake) || snake.IsHitTail())
                 {
-                    Console.Clear();
-                    Console.WriteLine("Game Over");
                     break;
                 }
                 if (snake.Eat(food))
@@ -40,7 +38,14 @@ namespace Geekbrains_Snake
                 }
                 else
                 {
-                    snake.Move();
+                    try
+                    {
+                        snake.Move();
+                    }
+                    catch
+                    {
+                        break;
+                    }
                 }
 
                 Thread.Sleep(200);
@@ -51,6 +56,8 @@ namespace Geekbrains_Snake
                     snake.HandleKey(key.Key);
                 }
             }
+            Console.Clear();
+            Console.WriteLine("Game Over");
             Console.WriteLine("Количество съеденных фруктов: {0}", snake.CountOfEat());
             Console.ReadKey();
         }
