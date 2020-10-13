@@ -63,8 +63,16 @@ namespace Geekbrains_Snake
 
         public void Draw()
         {
-            Console.SetCursorPosition(x, y);
-            Console.Write(sym);
+            try
+            {
+                Console.SetCursorPosition(x, y);
+                Console.Write(sym);
+            }
+            catch
+            {
+                Console.Clear();
+                Console.WriteLine("Game Over");
+            }
         }
 
         public bool IsHit(Point p)
