@@ -21,8 +21,10 @@ namespace Geekbrains_Snake
             Snake snake = new Snake(p, 4, Direction.DOWN);
             snake.Draw();
 
-            FoodCreator foodCreator = new FoodCreator(80, 25, '&');
+            FoodCreator foodCreator = new FoodCreator(80, 25, '0');
             Point food = foodCreator.CreateFood();
+            food.Draw();
+
             while (true)
             {
                 if (walls.IsHit(snake) || snake.IsHitTail())
@@ -49,6 +51,7 @@ namespace Geekbrains_Snake
                     snake.HandleKey(key.Key);
                 }
             }
+            Console.WriteLine("Количество съеденных фруктов: {0}", snake.CountOfEat());
             Console.ReadKey();
         }
     }

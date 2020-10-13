@@ -9,6 +9,7 @@ namespace Geekbrains_Snake
     class Snake : Figure
     {
         Direction direction;
+        int countOfEat = 0;
 
         public Snake(Point tail, int length, Direction direction)
         {
@@ -64,6 +65,11 @@ namespace Geekbrains_Snake
                 direction = Direction.UP;
         }
 
+        public int CountOfEat()
+        {
+            return countOfEat;
+        }
+
         internal bool Eat(Point food)
         {
             Point head = GetNextPoint();
@@ -71,6 +77,7 @@ namespace Geekbrains_Snake
             {
                 food.sym = head.sym;
                 pList.Add(food);
+                countOfEat++;
                 return true;
             }
             else
