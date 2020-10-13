@@ -11,19 +11,23 @@ namespace Geekbrains_Snake
     {
         static void Main(string[] args)
         {
-            Console.SetWindowSize(80, 25);
-            Console.SetBufferSize(80, 25);
+            int xSizeWindow = 80;
+            int ySizeWindow = 26;
+            Console.SetWindowSize(xSizeWindow, ySizeWindow );
+            Console.SetBufferSize(xSizeWindow, ySizeWindow );
 
-            Walls walls = new Walls(80, 25);
+            Walls walls = new Walls(xSizeWindow , ySizeWindow - 1);
             walls.Draw();
 
             Point p = new Point(4, 5, '*');
             Snake snake = new Snake(p, 4, Direction.DOWN);
             snake.Draw();
 
-            FoodCreator foodCreator = new FoodCreator(80, 25, '0');
+            FoodCreator foodCreator = new FoodCreator(xSizeWindow, ySizeWindow - 1, '0');
             Point food = foodCreator.CreateFood();
             food.Draw();
+            Console.SetCursorPosition(0, ySizeWindow - 1);
+            Console.Write("Количество съеденных фруктов: {0}", snake.CountOfEat());
 
             while (true)
             {
@@ -35,6 +39,8 @@ namespace Geekbrains_Snake
                 {
                     food = foodCreator.CreateFood();
                     food.Draw();
+                    Console.SetCursorPosition(0, ySizeWindow - 1);
+                    Console.Write("Количество съеденных фруктов: {0}", snake.CountOfEat());
                 }
                 else
                 {
@@ -56,9 +62,8 @@ namespace Geekbrains_Snake
                     snake.HandleKey(key.Key);
                 }
             }
-            Console.Clear();
+            Console.SetCursorPosition(xSizeWindow / 2, ySizeWindow / 2);
             Console.WriteLine("Game Over");
-            Console.WriteLine("Количество съеденных фруктов: {0}", snake.CountOfEat());
             Console.ReadKey();
         }
     }
