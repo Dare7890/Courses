@@ -19,7 +19,9 @@ namespace Geekbrains_Snake
             leftLine.Draw();
             rightLine.Draw();
 
-
+            Point p = new Point(4, 5, '*');
+            Snake snake = new Snake(p, 4, Direction.DOWN);
+            snake.Draw();
             Console.ReadKey();
         }
     }
